@@ -15,12 +15,12 @@ window.addEventListener("scroll", function () {
   }
 
   if (grow) { //true
-    size += 2;
-    square.style.width = size + "px";
+    size += 5;
     square.style.height = size + "px";
   } else {
-    size -= 2;
-    square.style.width = size + "px";
+    size -= 5;
     square.style.height = size + "px";
   }
+  square.style.width = size + "px";
+
 })
